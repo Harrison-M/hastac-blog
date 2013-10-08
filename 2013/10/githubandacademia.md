@@ -1,10 +1,10 @@
-Hello!  My name is Harrison Massey, and I'm quite proud to be one of the 2014 HASTAC scholars.  There's a lot I want to talk about in regards to open access and open-source software, but something that's been on my mind a lot recently has been the use of [GitHub](https://github.com) in academia.  As the [most-used open source project hosting site in the world][1], GitHub is sure to be a vital component of not only open-source academic software projects, but also for open education initiatives.  Git's distributed architecture and the relatively simple tools provided by GitHub that make working with Git much simpler than the command line.
+Hello!  My name is Harrison Massey, and I'm quite proud to be one of the 2014 HASTAC scholars.  There's a lot I want to talk about in regards to open access and open-source software, but something that's been on my mind a lot recently has been the use of [GitHub](https://github.com) in academia.  As the [most-used open source project hosting site in the world][1], GitHub is sure to be a vital component for not only open-source academic software projects, but also for open education initiatives.  Git's distributed architecture and the relatively simple tools provided by GitHub that make working with Git much easier than using the command line.
 
 However, despite the work GitHub has done at making Git more accessible, there's still a number of conceptual barriers that have to be overcome to use and understand Git:
 
 ##Decentralization
 
-Git's decentralized nature is really, really cool.  It 1) keeps collaborators from stepping on each others' toes and 2) the hosting service for the "central" repository collaborators are working on can be changed at a moment's notice.  However, for people who are more accustomed to working on the same copy of a document at the same time, such as on Google Docs or Wikipedia, the processes of working with the distributed architecture can be jarring.
+Git's decentralized nature makes it an excellent tool for coordinating collaborative editing.  It 1) keeps collaborators from stepping on each others' toes and 2) the hosting service for the "central" repository collaborators are working on can be changed at a moment's notice.  However, for people who are more accustomed to working on the same copy of a document at the same time (such as on Google Docs or Wikipedia), the processes of working with the distributed architecture can be jarring.
 
 The easiest way to think about this process is to consider how you might solicit analog review or annotation of a document.  You want a friend to edit your paper, so you print off a copy and hand it to them.  They take the copy, bleed red onto the page to indicate changes, then hand the paper back to you.  You can then look at those changes, which have not affected your original document file, and decide which changes you want to include in your original.
 
@@ -30,15 +30,17 @@ While it is possible to edit text files right on GitHub, if I want to make edits
 
 A "commit" is a set of changes made to a repository.  Unlike a change entry in Google Docs or Wikipedia, a commit's changes can span any number of files in the repository.  Commit groupings are, in fact, purely defined by the user.  When you want to define a commit, you get to choose ("add") which changes you want to include in a particular commit.  Commits also come with descriptions, which are used to describe what the group of changes accomplishes.
 
+Unfortunately, our metaphor falls apart a bit at this point.  Imagine, perhaps, that you sit down to edit the paper across multiple sessions and use a different color pen each time.  Each color grouping would represent a commit.
+
 ###Pushing
 
-Once you have one or more commits made to your clone, you can "push" them to GitHub.  This uploads the commits that exist on your machine to the original repository on GitHub that you created the clone from.  It's important to note that until you do this, your changes will not appear on GitHub.
+Once you have one or more commits made to your clone, you can "push" them to GitHub.  This uploads the commits that exist on your machine to the original repository on GitHub that you created the clone from, copying your red ink from your photocopy to your original printout (let's pretend we have magic ink that can do this).  It's important to note that until you do this, your changes will not appear on GitHub.
 
 If you're using the official GitHub desktop application, this will be labeled as "sync."  This actually downloads the latest version of your repository from GitHub, then uploads your commits to GitHub, but you will likely primarily use the button for uploading.
 
 ###Pull Requests
 
-Finally, a "pull request" does exactly what it says on the somewhat strangely-phrased tin: it asks the owner of the repository you created a fork from to include your changes in the original.  This encapsulates any commits you created yourself along with a name and description for the request, letting the original owner know what the commits accomplish in aggregate.  It's generally a good idea to make a pull request that accomplishes a single task as opposed to several; that way if the owner likes one change and doesn't like another, it's easier to include one and reject the other.
+Finally, a "pull request" does exactly what it says on the somewhat strangely-phrased tin: it asks the owner of the repository you created a fork from to include your changes in the original, much like handing your red ink-stained page back to a writer.  This encapsulates any commits you created yourself along with a name and description for the request, letting the original owner know what the commits accomplish in aggregate.  It's generally a good idea to make a pull request that accomplishes a single task as opposed to several; that way if the owner likes one change and doesn't like another, it's easier to include one and reject the other.
 
 You can create a pull request using the green compare button near the top-left of the repository screen or by pressing the "new pull request" button in the pull request view on a GitHub repository.  Tell GitHub to "compare across forks" and select your fork from the "head fork" dropdown.  This compares your copy with the original copy, allowing you to select and push your commits.
 
