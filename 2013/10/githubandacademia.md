@@ -1,5 +1,6 @@
 Hello!  My name is Harrison Massey, and I'm quite proud to be one of the 2014 HASTAC scholars.  There's a lot I want to talk about in regards to open access and open-source software, but something that's been on my mind a lot recently has been the use of [GitHub](https://github.com) in academia.  As the [most-used open source project hosting site in the world][1], GitHub is sure to be a vital component of not only open-source academic software projects, but also for open education initiatives.  Git's distributed architecture and the relatively simple tools provided by GitHub that make working with Git much simpler than the command line.
-However, despite the work GitHub has done at making Git more accessible, there's still a number of conceptual barriers that have to be overcome to use and understand Git.
+
+However, despite the work GitHub has done at making Git more accessible, there's still a number of conceptual barriers that have to be overcome to use and understand Git:
 
 ##Decentralization
 
