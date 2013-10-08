@@ -84,15 +84,15 @@ If any of you are already using GitHub for academic projects, I'd love to hear a
 
 These links have been pulled from the reading list from [Kim Knight's 2013 Fashioning Circuits class](http://fashioningcircuits.com/?page_id=1436).
 
-["A Gentle Introduction to Version Control" by Julie Meloni](http://chronicle.com/blogs/profhacker/a-gentle-introduction-to-version-control/23064)
+* ["A Gentle Introduction to Version Control" by Julie Meloni](http://chronicle.com/blogs/profhacker/a-gentle-introduction-to-version-control/23064)
 
-Konrad Lawson's GitHub guides:
+* Konrad Lawson's GitHub guides:
 
-1. ["Getting Started with a GitHub repository"](http://chronicle.com/blogs/profhacker/getting-started-with-a-github-repository/47393)
-2. ["Direct Editing and Zen Mode in GitHub"](http://chronicle.com/blogs/profhacker/direct-editing-and-zen-mode-in-github/47497)
-3. ["Forks and Pull Requests in GitHub"](http://chronicle.com/blogs/profhacker/forks-and-pull-requests-in-github/47753)
-4. ["Files and Repository History in GitHub"](http://chronicle.com/blogs/profhacker/file-and-repository-history-in-github/48047)
+    1. ["Getting Started with a GitHub repository"](http://chronicle.com/blogs/profhacker/getting-started-with-a-github-repository/47393)
+    2. ["Direct Editing and Zen Mode in GitHub"](http://chronicle.com/blogs/profhacker/direct-editing-and-zen-mode-in-github/47497)
+    3. ["Forks and Pull Requests in GitHub"](http://chronicle.com/blogs/profhacker/forks-and-pull-requests-in-github/47753)
+    4. ["Files and Repository History in GitHub"](http://chronicle.com/blogs/profhacker/file-and-repository-history-in-github/48047)
 
-["Git Basics" from *Pro Git* by Scott Chacon](http://git-scm.com/book/en/Getting-Started-Git-Basics)
+* ["Git Basics" from *Pro Git* by Scott Chacon](http://git-scm.com/book/en/Getting-Started-Git-Basics)
 
 [1]: http://readwrite.com/2011/06/02/github-has-passed-sourceforge "Github Has Surpassed Sourceforge and Google Code in Popularity"
