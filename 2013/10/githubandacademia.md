@@ -88,10 +88,10 @@ These links have been pulled from the reading list from [Kim Knight's Fall 2013 
 
 * Konrad Lawson's GitHub guides:
 
-*   1. ["Getting Started with a GitHub repository"](http://chronicle.com/blogs/profhacker/getting-started-with-a-github-repository/47393)
-    2. ["Direct Editing and Zen Mode in GitHub"](http://chronicle.com/blogs/profhacker/direct-editing-and-zen-mode-in-github/47497)
-    3. ["Forks and Pull Requests in GitHub"](http://chronicle.com/blogs/profhacker/forks-and-pull-requests-in-github/47753)
-    4. ["Files and Repository History in GitHub"](http://chronicle.com/blogs/profhacker/file-and-repository-history-in-github/48047)
+*   * ["Getting Started with a GitHub repository"](http://chronicle.com/blogs/profhacker/getting-started-with-a-github-repository/47393)
+    * ["Direct Editing and Zen Mode in GitHub"](http://chronicle.com/blogs/profhacker/direct-editing-and-zen-mode-in-github/47497)
+    * ["Forks and Pull Requests in GitHub"](http://chronicle.com/blogs/profhacker/forks-and-pull-requests-in-github/47753)
+    * ["Files and Repository History in GitHub"](http://chronicle.com/blogs/profhacker/file-and-repository-history-in-github/48047)
 
 * ["Git Basics" from *Pro Git* by Scott Chacon](http://git-scm.com/book/en/Getting-Started-Git-Basics)
 
