@@ -69,7 +69,7 @@ For private editing, you have to pay for a premium GitHub account to have access
 
 It's also worth noting that Git and GitHub have a longer setup time than other collaborative tools, which is fine if all your collaborators have used it before.  If one or more participants don't have it set up, though, you may want to opt for a speedier option depending on the project.
 
-##Get started!
+##Git started!
 
 If you're unfamiliar with Git, the easiest way to get started is to sign up on the [GitHub front page](http://github.com) and then download one of the GitHub desktop applications ([Windows](http://windows.github.com/) or [Mac](http://mac.github.com)).  Then, if you are a HASTAC scholar and leave a comment here (or maybe we should start a forum post) with your GitHub username, I have a [GitHub organization](https://github.com/hastac-scholars) set up for us that I'll add you to.
 
