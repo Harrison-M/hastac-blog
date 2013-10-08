@@ -66,7 +66,7 @@ Git and GitHub are very good tools for asynchronous, open collaboration.  Howeve
 
 For live, synchronous editing, you probably want a system with features such as cursor sharing and chat.  Etherpad, Etherpad Lite, and Google Docs are all better than GitHub, since changes show up immediately and don't require "commits."
 
-For private editing, you have to pay for a premium GitHub account to have access to private repositories.  Google Drive, Dropbox, and other file sharing services will give you fine-grained access controls for free or cheaper than GitHub.  However, it should be noted that GitHub provides [5 private repositories to students for free and offers discounts to educational institutions](https://github.com/edu), so this shouldn't be an absolute deterrent.
+For private editing, you have to pay for a premium GitHub account to have access to private repositories.  Google Drive, Dropbox, and other file sharing services will give you fine-grained access controls for free or cheaper than GitHub.  However, it should be noted that GitHub provides [5 private repositories to students for free for two years and offers discounts to educational institutions](https://github.com/edu), so this shouldn't be an absolute deterrent.
 
 It's also worth noting that Git and GitHub have a longer setup time than other collaborative tools, which is fine if all your collaborators have used it before.  If one or more participants don't have it set up, though, you may want to opt for a speedier option depending on the project.
 
