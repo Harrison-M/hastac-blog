@@ -82,7 +82,7 @@ If any of you are already using GitHub for academic projects, I'd love to hear a
 
 ##Further reading
 
-These links have been pulled from the reading list from [Kim Knight's 2013 Fashioning Circuits class](http://fashioningcircuits.com/?page_id=1436).
+These links have been pulled from the reading list from [Kim Knight's Fall 2013 Fashioning Circuits class](http://fashioningcircuits.com/?page_id=1436).
 
 * ["A Gentle Introduction to Version Control" by Julie Meloni](http://chronicle.com/blogs/profhacker/a-gentle-introduction-to-version-control/23064)
 
