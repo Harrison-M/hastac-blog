@@ -8,7 +8,7 @@ Git's decentralized nature makes it an excellent tool for coordinating collabora
 
 The easiest way to think about this process is to consider how you might perform analog review or annotation of a document.  A friend wants you to edit their paper, so they print off a copy and hand it to you.  You take the copy, bleed red onto the page to indicate changes, then hand the paper back to them.  They can then look at those changes, which have not affected their original document file, and decide which changes they want to include in their original.
 
-Git and GitHub operate in a similar fashion: if I want to change something, I make a copy of it, make the changes, then submit those changes.  The names used for this process in Git, however, are not very intuitive, and a number of intermediary steps are added to this model as well that make the process initially difficult to understand.
+Git and GitHub operate in a similar fashion: if I want to change something, I make a copy of it to change.  Once I'm done making my changes, I submit them for inclusion in the original.  The names used for this process in Git, however, are not very intuitive, and a number of intermediary steps are added to this model as well that make the process initially difficult to understand.
 
 ##Specialized language
 
@@ -34,7 +34,7 @@ Unfortunately, our metaphor falls apart a bit at this point.  Imagine, perhaps, 
 
 ###Pushing
 
-Once you have one or more commits on your clone, you can "push" them to GitHub.  This uploads the commits on your machine to the original repository on GitHub that you created the clone from.  In our metaphor, this copies edits from your photocopy to your original printout (let's pretend we have magic ink that can do this).  It's important to note that until you do this, your changes will not appear on GitHub.
+Once you have one or more commits on your clone, you can "push" them to GitHub.  This uploads the commits on your machine to the original repository on GitHub from which you created the clone.  In our metaphor, this copies edits from your photocopy to your original printout (let's pretend we have magic ink that can do this).  It's important to note that until you do this, your changes will not appear on GitHub.
 
 If you're using the official GitHub desktop application, this will be labeled as "publish" or "sync."  "Sync" actually downloads the latest version of your repository from GitHub, then uploads your commits to GitHub, but you will likely primarily use the button for uploading.
 
@@ -46,7 +46,7 @@ You can create a pull request using the green compare button near the top-left o
 
 ###Issues
 
-When you create a pull request, it will also show up as an "issue" on the original repository.  An issue can be anything from a bug report on a software application to discussion question for a document writing team.  Issues are numbered, which allows you to refer to them from commits or other issues using "#" and the issue number (e.g. "#23").  Issues can also be tagged with "labels" such as "bug" or "discussion," which allow you to categorize issues into a versatile set of different purposes.
+When you create a pull request, it will also show up as an "issue" on the original repository.  An issue can be anything from a bug report on a software application to a discussion question for a document writing team.  Issues are numbered, which allows you to refer to them from commits or other issues using "#" and the issue number (e.g. "#23").  Issues can also be tagged with "labels" such as "bug" or "discussion," which allow you to categorize issues into a versatile set of purposes.
 
 ##Putting it all together
 
