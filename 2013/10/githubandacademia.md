@@ -18,6 +18,8 @@ A repository is a group of documents that share a folder and revision history.  
 
 ###Forking
 
+![A forked repository in GitHub](img/forkexample.png)
+
 When your friend's document gets printed off and handed to you, a "fork" essentially happens.  When you fork a project in GitHub, the entire repository gets copied from the owner's GitHub account to your GitHub account, including the files and the change history.  This allows you to make edits to their files without disrupting anything they are working on.
 
 The process of forking is at the heart of open collaboration on GitHub.  It allows an individual or core team to coordinate closely on a work while still inviting contributions from those outside the team.  It also avoids the need for features like Google Drive's "sharing" access controls, since changes don't automatically affect the original document.
