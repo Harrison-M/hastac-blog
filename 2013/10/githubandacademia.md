@@ -24,9 +24,13 @@ The process of forking is at the heart of open collaboration on GitHub.  It allo
 
 ###Cloning
 
+![Creating a clone in GitHub for Windows](img/githubforwindowsexample.png)
+
 While it is possible to edit text files right on GitHub, I have to "clone" the repository from GitHub to my local machine if I want to use my own text editor or upload other types of files.  This makes a copy of the entire repository, including its change history, on my machine.  This can be difficult to understand at first, especially if you are using one of the GitHub desktop apps.  The apps will show you all of your repositories, making it seem like they are available for editing, when there is actually an additional step to perform before edits can be made.  To extend our previous metaphor, a clone is akin to making a photocopy: you now have a new sheet of paper that you can edit separately.
 
 ###Commits
+
+![Creating a commit in GitHub for Windows](img/commitexample.png)
 
 A "commit" is a set of changes made to a repository.  Unlike a change entry in Google Drive or Wikipedia, a commit's changes can span any number of files in the repository.  These commit groupings are purely defined by the user.  When you want to define a commit, you choose ("add") which changes you want to include in a particular commit.  You then add a description, which is used to describe what the group of changes accomplishes.
 
@@ -34,11 +38,15 @@ Unfortunately, our metaphor falls apart a bit at this point.  Imagine, perhaps, 
 
 ###Pushing
 
+![The "Sync' button in GitHub for Windows](img/syncexample.png)
+
 Once you have one or more commits on your clone, you can "push" them to GitHub.  This uploads the commits on your machine to the original repository on GitHub from which you created the clone.  In our metaphor, this copies edits from your photocopy to your original printout (let's pretend we have magic ink that can do this).  It's important to note that until you do this, your changes will not appear on GitHub.
 
 If you're using the official GitHub desktop application, this will be labeled as "publish" or "sync."  "Sync" actually downloads the latest version of your repository from GitHub, then uploads your commits to GitHub, but you will likely primarily use the button for uploading.
 
 ###Pull Requests
+
+![The branch comparison screen for creating a pull request](img/pullrequestcomparison.png)
 
 Finally, a "pull request" does exactly what it says on the somewhat strangely-phrased tin: it asks the owner of the repository you forked to include your changes in the original, much like handing a red ink-stained page back to a writer.  This request encapsulates any commits you created yourself along with a name and description for the request, letting the original owner know what the commits accomplish in aggregate.  It's generally a good idea to make a pull request that accomplishes a single task as opposed to several; that way, if the owner likes one change and doesn't like another, it's easier to just include the part they like.
 
